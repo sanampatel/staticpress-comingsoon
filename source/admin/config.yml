@@ -16,5 +16,4 @@ collections:
       - {label: "Title", name: "title", widget: "string", default: "Title"}
       - {label: "Date", name: "date", widget: "date"}
       - {label: "BgImage", name: "bgimg", widget: "image"}
-      - {label: "Bgcolor-1", name: "bgcolor-1", widget: "string"}
-      - {label: "Bgcolor-2", name: "bgcolor-2", widget: "string"}
+      - {label: "Bgcolor", name: "bgcolor", widget: "string"}
