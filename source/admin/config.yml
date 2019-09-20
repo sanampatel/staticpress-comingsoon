@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: thakkarhiral/staticpress.io
+  branch: master
+  squash_merges: true
+publish_mode: editorial_workflow
+media_folder: source/images
+collections:
+  - name: "settings"
+    label: "Settings"
+    label_singular: "Setting"
+    folder: "source/_settings"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "Title"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "BgImage", name: "bgimg", widget: "image"}
+      - {label: "Bgcolor-1", name: "bgcolor-1", widget: "string"}
+      - {label: "Bgcolor-2", name: "bgcolor-2", widget: "string"}

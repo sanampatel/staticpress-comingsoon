@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+body {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+.box {
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.l1-txt1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+.l1-txt2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 21px;
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+}
+.vuejs-countdown {
+	padding: 0;
+	margin: 0;
+}
+.vuejs-countdown li {
+	display: inline-block;
+	margin: 0 8px;
+	text-align: center;
+	position: relative;
+	height: 50px
+}
+.digit {
+	background-color: #fff;
+	border-radius: 18px;
+	color: #555555;
+	padding: 20px
+}
+.text {
+	color: white;
+	margin-top: 20px
+}
+.vuejs-countdown li p {
+	margin: 0;
+}
+.vuejs-countdown li:after {
+	content: ":";
+	position: absolute;
+	top: 13px;
+	right: -13px;
+	font-size: 32px;
+}
+.vuejs-countdown li:first-of-type {
+	margin-left: 0;
+}
+.vuejs-countdown li:last-of-type {
+	margin-right: 0;
+}
+.vuejs-countdown li:last-of-type:after {
+	content: "";
+}
+.vuejs-countdown .digit {
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 1.4;
+	margin-bottom: 0;
+}
+.vuejs-countdown .text {
+	text-transform: capitalize;
+	margin-bottom: 0;
+	font-size: 16px;
+	margin-top: 20px
+}

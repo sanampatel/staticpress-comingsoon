@@ -1,0 +1,19 @@
+/build_local/
+/cache/
+/node_modules/
+/vendor/
+/.idea/
+/.vscode/
+npm-debug.log
+yarn-error.log
+package.json
+package.lock.json
+webpack.config.js
+webpack.mix.js
+
+# Optional ignores
+# /build_staging/
+# /build_production/
+# /source/assets/build/css/
+# /source/assets/build/fonts/
+# /source/assets/build/js/
